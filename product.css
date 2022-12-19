@@ -1,0 +1,75 @@
+.product{
+    width: 90%;
+    margin: 0 auto;
+}
+.arrow-product img{
+    width: 50px;
+}
+.name-product{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px;
+    text-transform: uppercase;
+}
+.image-product{
+    width: 400px;
+}
+.container-product{
+    display: flex;
+}
+.name-product2{
+    font-size: 35px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.price{
+    font-size: 23px;
+    color: blue;
+    padding: 40px 0 40px 0;
+    text-decoration: underline;
+}
+.icon{
+    background-image: url(https://static.thenounproject.com/png/766721-200.png);
+    width: 140px;
+    height: 30px;
+    background-position: center;
+    background-size: cover;
+}
+button{
+    font-size: 35px;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 80px;
+    width: 150px;
+    background-color: transparent;
+}
+
+@media (max-width: 716px){
+    .arrow-product img{
+        width: 30px;
+    }
+    .container-product img{
+        width:150px;
+        height: 200px;
+        margin: 0;
+    }
+    .container-product{
+        width: 100%;
+    }
+    .name-product2{
+        font-size: 24px;
+    }
+    .price{
+        padding-top: 10px;
+    }
+    .lorem-text{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+    button{
+        width: 100px;
+        font-size: 20px; 
+        margin-top: 10px;
+    }
+}
